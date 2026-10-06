@@ -34,7 +34,7 @@ model = NearestNeighbors(n_neighbors=5, metric="euclidean") #euklidischer Distan
 
 model.fit(X_scaled)
 
-target_name = "T. Müller"
+target_name = "H. Kane"
 
 
 attackers_reset = attackers.reset_index(drop=True)
